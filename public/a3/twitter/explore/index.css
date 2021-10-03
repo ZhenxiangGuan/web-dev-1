@@ -46,7 +46,18 @@
 
 .wd-highlighted {
     color:rgb(29,161,242);
-    border-bottom: 1px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: rgb(29,161,242);
+
+    background-color:black;
+    
+    border-width:3px;
+    
+    padding:16px;
+    font-size: 15px;
+    width:100%
 }
 
 
@@ -122,7 +133,19 @@
 .wd-border2 {
     border-width:1px;
     border-style: solid;
-    border-color: lightgray;
+    border-color: rgb(47, 51, 54);
+    overflow: hidden
+}
+
+.wd-bottom-border {
+    border-width:1px;
+    border-top-color: rgb(47, 51, 54);
+    border-right-color: rgb(47, 51, 54);
+    border-left-color: rgb(47, 51, 54);
+    border-bottom-color:lightgray;
+    border-bottom-width: 1px;
+    border-style: solid;
+    
     overflow: hidden
 }
 
@@ -140,6 +163,7 @@
     margin-left:12px;
     color:lightgray;
     margin-top:12px;
+    margin-bottom:12px;
     font-size:15px;
 }
 
@@ -159,11 +183,11 @@
     height:265px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-left:12px;
+    margin-left:60px;
     margin-top:12px;
     border-width:1px;
     border-style: solid;
-    border-color: lightgray;
+    border-color: rgb(47, 51, 54);
     
 
 }
@@ -171,25 +195,27 @@
 .wd-posts-title {
     color:white;
    
+   
     
-
 }
 
 .wd-posts-content {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     width:480px;
-    margin-left:12px;
+    margin-left:60px;
     margin-top:-5px;
     border-width:1px;
     border-style: solid;
-    border-color: lightgray;
+    border-color: rgb(47, 51, 54);
     color:lightgray;
     font-size:15px;
     padding:12px;
     
 
 }
+
+
 
 .wd-posts-words {
     margin-top:0px;
@@ -213,13 +239,20 @@
     margin-top:12px;
 }
 
+.wd-number2 {
+    color:red; 
+    font-size:14px; 
+    margin-left:12px;
+    margin-top:12px;
+}
+
 .wd-pos1 {
-    margin-left:36px;
+    margin-left:60px;
     margin-top:12px;
 }
 
 .wd-pos2 {
-    margin-left:70px;
+    margin-left:93px;
     margin-top:12px;
 }
 
