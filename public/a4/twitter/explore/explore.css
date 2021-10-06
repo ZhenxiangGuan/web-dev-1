@@ -62,9 +62,31 @@
 }
 
 
+.wd-nowrap {
+    white-space: nowrap;
+}
 
-.wd-overlay {
-    width:110%
+.wd-pos1 {
+    position:relative;
+    right:0px;
+}
+
+.wd-pos2 {
+    position:relative;
+    left:12px;
+}
+
+.wd-caption {
+    position: absolute;
+    top: 88%;
+    left: -28%;
+    width: 100%;
+    font-size:30px;
+    color:white;
+}
+
+.wd-relative {
+    position: relative;
 }
 
 
