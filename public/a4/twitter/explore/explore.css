@@ -24,10 +24,14 @@
 
 .wd-flex {
     display: flex;
+    
 }
 
 .wd-blue {
     color: #0d6efd;
+    margin-right:10px;
+    vertical-align: baseline;
+
 }
 
 .wd-more {
