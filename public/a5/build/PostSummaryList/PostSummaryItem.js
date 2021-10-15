@@ -12,7 +12,7 @@ const PostSummaryItem = (post) => {
       <i class="fas fa-check-circle"></i>
       <span class="wd-darkgray"> - ${post.time}</span>
       <br>
-      <b> ${post.title}/b>
+      <b> ${post.title}</b>
       <br>
       <span class="wd-darkgray">
         123K Tweets
