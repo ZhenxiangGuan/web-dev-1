@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import ExploreScreen from "./ExploreScreen/ExploreScreen"
 
 
 const Build = () => {
@@ -12,7 +13,12 @@ const Build = () => {
         </Link> |
         <Link to="/a6/build">
         Build
-        </Link>        
+        </Link>
+
+       
+        <ExploreScreen/>
+        
+
     </>
         
     )
