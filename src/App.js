@@ -18,10 +18,10 @@ function App() {
         <Route path="/hello" exact={true}>
             <HelloWorld/>
         </Route>
-        <Route path={["/", "/a6", "/a6/practice"]} exact={true}>
+        <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
             <Practice/>
         </Route>
-        <Route path="/a6/build" exact={true}>
+        <Route path="/a7/build" exact={true}>
             <Build/>
         </Route>
     </div>
