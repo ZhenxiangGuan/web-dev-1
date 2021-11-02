@@ -12,7 +12,7 @@ const NavigationSidebar = (
         ${active === 'twitter' ? 'active' : ''}`}>
         <i className="fab fa-twitter"></i></Link>
 
-    <Link to="/a7/build/home" className={`list-group-item
+    <Link to="/a7/twitter/home" className={`list-group-item
         ${active === 'home' ? 'active' : ''}`}>
         <div className="d-none d-xl-block">
         <i className="fas fa-home"></i>
@@ -27,7 +27,7 @@ const NavigationSidebar = (
 
     </Link>
 
-    <Link to="../../build/explore" className={`list-group-item
+    <Link to="/a7/twitter/explore" className={`list-group-item
         ${active === 'explore' ? 'active' : ''}`}>
         <div className="d-none d-xl-block">
         <i className="fas fa-hashtag"></i>

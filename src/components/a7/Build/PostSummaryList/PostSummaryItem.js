@@ -11,25 +11,25 @@ const PostSummaryItem = ({
 ) => {
     return (
 
-    <li class="list-group-item">
-    <div class="row">
-    <div class="col-md-10 col-sm-8">
-    <span class="wd-darkgray">
+    <li className="list-group-item">
+    <div className="row">
+    <div className="col-md-10 col-sm-8">
+    <span className="wd-darkgray">
         {post.topic}
       </span>
       <br/>
       <b>{post.userName}</b>
-      <i class="fas fa-check-circle"></i>
-      <span class="wd-darkgray"> - {post.time}</span>
+      <i className="fas fa-check-circle"></i>
+      <span className="wd-darkgray"> - {post.time}</span>
       <br/>
       <b> {post.title}</b>
       <br/>
-      <span class="wd-darkgray">
+      <span className="wd-darkgray">
         123K Tweets
       </span>
     </div>
-    <div class="col-md-2 col-md-2 col-sm-4">
-        <img src={post.image}  class="wd-topicimg" alt=""/>
+    <div className="col-md-2 col-md-2 col-sm-4">
+        <img src={post.image}  className="wd-topicimg" alt=""/>
     </div>
   </div>
 </li>

@@ -4,6 +4,7 @@ import Classes from "../Practice/Classes/index.js";
 import Styles from "./Styles";
 import ConditionalOutput from "./ConditionalOutput";
 import TodoList from "./Todo/todo/TodoList.js";
+import ReduxExample from "./ReduxExample/components/index";
 
 const Practice = () => {
     return(
@@ -12,9 +13,10 @@ const Practice = () => {
         <Link to="/a7/practice">
         Practice
         </Link> |
-        <Link to="/a7/build">
+        <Link to="/a7/twitter">
         Build
         </Link>
+        <ReduxExample/>
         <TodoList/>
         <ConditionalOutput/>
         <Styles/>
