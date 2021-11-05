@@ -5,19 +5,20 @@ const WhatsHappening = () => {
     const dispatch = useDispatch();
     const tweetClickHandler = () => {
         console.log(whatsHappening);
-    }
-    dispatch({type: 'create-tweet',
+        dispatch({type: 'create-tweet',
     tweet: {
         tweet: whatsHappening
     }
-});
+    });};
+
 
     return(
         <>
-        <textarea value={whatsHappening}
-            onChange={(event) =>
-            setWhatsHappening(event.target.value)}>
+        <div className="container">
+        <img className="col-2 wd-rounded" src="/avators/timcook.jpeg"/>
+        <textarea className="col-10" value={whatsHappening} onChange={(event) => setWhatsHappening(event.target.value)}>
         </textarea>
+        </div>
 
         <button onClick={tweetClickHandler}>
             Tweet

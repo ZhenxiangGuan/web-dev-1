@@ -10,7 +10,7 @@ import {BrowserRouter, Route} from "react-router-dom";
 function App() {
   return (
     <>
-    <h1>Assignment6</h1>
+    
     <BrowserRouter>
     <div className="container">
         
@@ -20,7 +20,7 @@ function App() {
         <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
             <Practice/>
         </Route>
-        <Route path="/a7/twitter" exact={true}>
+        <Route path="/a7/twitter">
             <Build/>
         </Route>
     </div>
