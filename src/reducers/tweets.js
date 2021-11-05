@@ -33,17 +33,17 @@ const tweets = (state = initialState, action) => {
             const tweet = {
                 _id: (new Date()).getTime() + '',
                 "topic": "Web Development",
-                "userName": "ReactJS",
+                "userName": "Tim Cook",
                 "verified": false,
-                "handle": "ReactJS",
-                "time": "2h",
+                "handle": "timcook",
+                "time": "now",
                 ...action.tweet,
-                "avatar-image": "../../../images/react-blue.png",
-                "logo-image": "../../../images/react-blue.png",
+                "avatar-image": "/avators/timcook.jpeg",
+                "logo-image": "/avators/timcook.jpeg",
                 "stats": {
-                    "comments": 123,
-                    "retweets": 234,
-                    "likes": 345
+                    "comments": 0,
+                    "retweets": 0,
+                    "likes": 0
                 },
             };
             return ({

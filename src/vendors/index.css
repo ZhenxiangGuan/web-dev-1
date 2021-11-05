@@ -3,6 +3,12 @@
     width:100%;
 }
 
+.wd-round-btn1 {
+    border-radius:50px;
+    margin:12px;
+    
+}
+
 .wd-lhalf-round {
     border-width: 1px;
     border-style: solid;
@@ -94,7 +100,15 @@
     text-align: center;
 }
 
+.wd-avatar {
+    width:48px;
+    position:relative;
+    top:-45px;
+}
 
+.wd-black {
+    background-color:black;
+}
 
 
 

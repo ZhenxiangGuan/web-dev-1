@@ -11,8 +11,8 @@
       "attachments": {
         "video": "unKvMC3Y1kI"
       },
-      "logo-image": "../../../images/react-blue.png",
-      "avatar-image": "../../../images/react-blue.png",
+      "logo-image": "/avators/reactjs.png",
+      "avatar-image": "/avators/reactjs.png",
       "stats": {
         "comments": 123,
         "retweets": 234,
@@ -28,11 +28,11 @@
       "title": "",
       "tweet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "attachments": {
-        "image": "../images/starship.png"
+        "image": "/avators/nasa.png"
       },
       "time": "last month",
-      "logo-image": "../../../images/node.png",
-      "avatar-image": "../../../images/node.png",
+      "logo-image": "/avators/nasa.png",
+      "avatar-image": "/avators/nasa.png",
       "tweets": "120K",
       "stats": {
         "comments": 123,
@@ -43,15 +43,15 @@
     {
       "_id": "234",
       "topic": "Space",
-      "userName": "Scott Manley",
+      "userName": "Tim Cook",
       "verified": true,
-      "handle": "DJSnM",
+      "handle": "timcook",
       "published-date": "2020-12-10",
       "time": "1 day",
       "title": "JavaScript is programming language that can run on browsers as well as desktops",
       "tweet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "logo-image": "../../../images/js.png",
-      "avatar-image": "../../../images/js.png",
+      "logo-image": "/avators/timcook.jpeg",
+      "avatar-image": "/avators/timcook.jpeg",
       "tweets": "123K",
       "stats": {
         "comments": 123,
@@ -68,8 +68,8 @@
       "title": "jQuery",
       "tweet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "time": "last week",
-      "logo-image": "../../../images/jquery.png",
-      "avatar-image": "../../../images/jquery.png",
+      "logo-image": "/avators/jquery.png",
+      "avatar-image": "/avators/jquery.png",
       "tweets": "122K",
       "stats": {
         "comments": 123,
@@ -80,14 +80,14 @@
     {
       "_id": "456",
       "topic": "Web Development",
-      "userName": "NodeJS",
+      "userName": "VueJS",
       "verified": true,
-      "handle": "NodeJS",
+      "handle": "VueJS",
       "title": "",
       "tweet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "time": "last month",
-      "logo-image": "../../../images/node.png",
-      "avatar-image": "../../../images/node.png",
+      "logo-image": "/avators/vue.png",
+      "avatar-image": "/avators/vue.png",
       "tweets": "120K",
       "stats": {
         "comments": 123,
